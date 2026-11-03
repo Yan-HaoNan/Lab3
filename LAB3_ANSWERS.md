@@ -73,4 +73,4 @@ The average salary is 361000 / 6 = 60166.666666666664. Department lookup returns
 
 Result: 59 passed. This includes the Lab 2 submodule tests and uppercase Test_bmi.py.
 
-The PDF requests Lab3_v1.0 and Lab3_v2.0 tags, a Lab2_v3.0 release, and Lab3_v4.0 and Lab3_v5.0 releases. Publication status is recorded in README.md; commands described here are worksheet answers and do not by themselves indicate a successful push or release.
+The PDF requests Lab3_v1.0 and Lab3_v2.0 tags, a Lab2_v3.0 release, and Lab3_v4.0 and Lab3_v5.0 releases. All requested pushes, tags, and releases have been published. Links and publication status are recorded in README.md.

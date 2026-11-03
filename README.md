@@ -21,16 +21,11 @@ All exercise code is committed locally. Local tags:
 - Lab 3: `Lab3_v1.0` (requirement tests before sorting fixes), `Lab3_v2.0` (sorting fixes), `Lab3_v4.0` (fruit prices), `Lab3_v5.0` (employee queries).
 - Lab 2: `Lab2_v3.0` (temperature calculations and tests).
 
-GitHub pushes and releases are **pending**. The terminal has no available GitHub credentials. The user confirmed `Yan-HaoNan` as the destination account. Lab 3 origin is now `https://github.com/Yan-HaoNan/Lab3.git`; Lab 2 origin is `https://github.com/Yan-HaoNan/Lab2.git`. Repository access remains unverified because terminal Git authentication is unavailable. The connected GitHub account is `HN-YAN-26`.
+Published successfully to `Yan-HaoNan`:
 
-After confirming the destination and authenticating Git:
+- [Lab 3 repository](https://github.com/Yan-HaoNan/Lab3)
+- [Lab 2 release Lab2_v3.0](https://github.com/Yan-HaoNan/Lab2/releases/tag/Lab2_v3.0)
+- [Lab 3 release Lab3_v4.0](https://github.com/Yan-HaoNan/Lab3/releases/tag/Lab3_v4.0)
+- [Lab 3 release Lab3_v5.0](https://github.com/Yan-HaoNan/Lab3/releases/tag/Lab3_v5.0)
 
-```powershell
-git -C Lab2 push origin master
-git -C Lab2 push origin Lab2_v3.0
-git remote set-url origin https://github.com/Yan-HaoNan/Lab3.git
-git push -u origin master
-git push origin Lab3_v1.0 Lab3_v2.0 Lab3_v4.0 Lab3_v5.0
-```
-
-Then create GitHub releases for `Lab2_v3.0`, `Lab3_v4.0`, and `Lab3_v5.0` from their matching tags. A local Git tag is not a published GitHub release.
+The Lab 2 master branch and Lab2_v3.0 tag are pushed. The Lab 3 master branch and Lab3_v1.0, Lab3_v2.0, Lab3_v4.0, and Lab3_v5.0 tags are pushed. Release tags mark their exercise implementation commits; the master branch also includes the worksheet answers and publication record.
