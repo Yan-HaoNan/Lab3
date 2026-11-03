@@ -21,14 +21,14 @@ All exercise code is committed locally. Local tags:
 - Lab 3: `Lab3_v1.0` (requirement tests before sorting fixes), `Lab3_v2.0` (sorting fixes), `Lab3_v4.0` (fruit prices), `Lab3_v5.0` (employee queries).
 - Lab 2: `Lab2_v3.0` (temperature calculations and tests).
 
-GitHub pushes and releases are **pending**. The terminal has no available GitHub credentials. The connected GitHub account is `HN-YAN-26`, while the existing Lab 2 remote is `Yan-HaoNan/Lab2`. No Lab 3 repository was found at either account's `Lab3` URL. The Lab 3 origin still points to the original teaching repository; it must be changed to the confirmed personal repository before pushing.
+GitHub pushes and releases are **pending**. The terminal has no available GitHub credentials. The user confirmed `Yan-HaoNan` as the destination account. Lab 3 origin is now `https://github.com/Yan-HaoNan/Lab3.git`; Lab 2 origin is `https://github.com/Yan-HaoNan/Lab2.git`. Repository access remains unverified because terminal Git authentication is unavailable. The connected GitHub account is `HN-YAN-26`.
 
 After confirming the destination and authenticating Git:
 
 ```powershell
 git -C Lab2 push origin master
 git -C Lab2 push origin Lab2_v3.0
-git remote set-url origin <confirmed-personal-Lab3-repository-URL>
+git remote set-url origin https://github.com/Yan-HaoNan/Lab3.git
 git push -u origin master
 git push origin Lab3_v1.0 Lab3_v2.0 Lab3_v4.0 Lab3_v5.0
 ```
